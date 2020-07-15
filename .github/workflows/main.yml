@@ -12,6 +12,6 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
     - name: Build static site
-      run: yarn install && npm run-script build
+      run: npm run-script build
     - name: Deploy static site to s3
       run: aws s3 sync ./dist/ s3://orrinsheppard.com --delete

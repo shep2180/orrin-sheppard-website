@@ -1,0 +1,274 @@
+/* General */
+html
+{
+		scroll-behavior: smooth;
+		background-color:#d9d9d9;
+}
+
+body
+{
+	margin: 0;
+	font-family: 'Merriweather', san-serif;
+	font-weight: normal;
+	color: #40514E;
+	line-height: 1em;
+	font-size: 1rem;
+}
+
+h2
+{
+	font-family:'Roboto', sans-serif;
+	color:#141c3a;
+	font-size:2em;
+	letter-spacing:1px;
+}
+
+h3
+{
+	font-family:'Roboto', sans-serif;
+	color:#141c3a;
+	font-weight:normal;
+	font-size:1.5em;
+}
+
+h4
+{
+	font-family:'Roboto', sans-serif;
+	color:#141c3a;
+	font-weight:normal;
+	font-size:1.3em;
+}
+
+hr
+{
+	border:solid #E6ECF8 0.1rem;
+	margin:100px 0;
+	border-bottom:none;
+}
+
+p
+{
+	margin-bottom:0;
+	size:3px;
+	line-height:1.3em;
+}
+
+/* Headers */
+.headers
+{
+	margin-bottom:70px;
+	letter-spacing:2px;
+}
+
+/* Top Bar Section */
+
+#nav-bar-section
+{
+	background-color:#bdbdbd;
+	padding:30px 0;
+}
+
+.nav-bar-container
+{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin:0 10%;
+}
+
+.icon-image
+{
+	width:5em;
+}
+
+.nav-icon-right a
+{
+	text-decoration:none;
+	letter-spacing:1px;
+	font-family:'Roboto', sans-serif;
+	margin:1rem;
+	
+}
+
+.nav-icon-right a:hover
+{
+	color:#71c9ce;
+}
+
+.nav-icon-right a:active
+{
+	color:#71c9ce;
+}
+
+/* Top Heading Section */
+#top-heading-section
+{
+	display:block;
+	background-color:#bdbdbd;
+	text-align:center;
+}
+
+.top-container
+{
+	margin:0 10%;
+}
+
+.my-name
+{
+	margin:0;
+	font-size:3.8rem;
+	font-family:'Roboto', sans-serif;
+	color:#141c3a;
+	font-weight:bold;
+	padding:30px;
+	letter-spacing:2px;
+}
+
+.my-description
+{
+	font-family:'Roboto', sans-serif;
+	color:#141c3a;
+	font-size:1.1em;
+	margin-bottom:50px;
+}
+
+.main-image
+{
+	width:31.25rem;
+}
+
+/* About Section */
+#about-section
+{
+	display:block;
+	text-align:center;
+	margin:70px 0;
+}
+
+.about-container
+{
+	margin:0 10%;
+}
+
+.about-image
+{
+	width:200px;
+	margin-bottom:30px;
+}
+
+.about-text
+{
+	line-height:2rem;
+	font-family:'Roboto', sans-serif;
+}
+
+/* Job Section */
+#job-section
+{
+	display:block;
+	text-align:center;
+	margin:70px 0;
+	padding:6.25rem;
+	background-color:#bdbdbd;
+}
+
+.job-container
+{
+	margin:0 10%;
+}
+
+.job-text
+{
+	line-height:2rem;
+	font-family:'Roboto', sans-serif;
+}
+
+/* Skills Section - UNFINISHED */
+#skills-section
+{
+	display:block;
+	text-align:center;
+	margin:30px 10%;
+}
+
+.headings
+{
+	margin-bottom:70px;
+	letter-spacing:2px;
+}
+
+.skills-container
+{
+	display:flex;
+}
+
+/* Education Section */
+#education-section
+{
+	display:block;
+	text-align:center;
+	background-color:#bdbdbd;
+	padding:6.25rem 0;
+}
+
+.education-container
+{
+	margin:0 10%;
+	background-color:#e3fdfd;
+}
+
+.education-text
+{
+	line-height:2;
+	margin-bottom:50px;
+	font-family:'Roboto', sans-serif;
+}
+
+/* Contact Section */
+#contact-section
+{
+	display:block;
+	text-align:center;
+	margin-top:100px;
+}
+
+.contact-container
+{
+	margin:70px 10%;
+}
+
+.contact-text
+{
+	font-family:'Roboto', sans-serif;
+	margin-bottom:30px;
+}
+
+/* Foot Section */
+#foot-section
+{
+	display:block;
+	padding:0.8em 1.3em;
+	background-color:#bdbdbd;
+	text-align:center;
+}
+
+.foot-container
+{
+	padding:50px 0;
+	margin-top:100px;
+}
+
+.challenge-text
+{
+	font-family:'Roboto', sans-serif;
+}
+
+.visitor-text
+{
+	font-family:'Roboto', sans-serif;
+}
+
+.aws-text
+{
+	font-family:'Roboto', sans-serif;
+}

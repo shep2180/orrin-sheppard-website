@@ -7,8 +7,8 @@ fetch('https://j3ltixjff4.execute-api.us-east-1.amazonaws.com/test/visitor')
 	{
 		return response.json()
 	})
-	.then(function(myJson)
+	.then(function(myCounterJson)
 	{
-		console.log("Visitor Count: " + myJson.visitorCount);
-		document.querySelector("#visitor-text").innerHTML = "Total Visitors: " + myJson.visitorCount;
+		console.log("Visitor Count: " + myCounterJson.visitorCount);
+		document.querySelector("#visitor-text").innerHTML = "Total Visitors: " + myCounterJson.visitorCount;
 	});

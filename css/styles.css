@@ -87,7 +87,6 @@ p
 	letter-spacing:1px;
 	font-family:'Roboto', sans-serif;
 	margin:1rem;
-	
 }
 
 .nav-icon-right a:hover
@@ -106,6 +105,7 @@ p
 	display:block;
 	background-color:#bdbdbd;
 	text-align:center;
+	border-radius:100px;
 }
 
 .top-container
@@ -170,6 +170,7 @@ p
 	margin:70px 0;
 	padding:6.25rem;
 	background-color:#bdbdbd;
+	border-radius:100px;
 }
 
 .job-container
@@ -209,6 +210,7 @@ p
 	text-align:center;
 	background-color:#bdbdbd;
 	padding:6.25rem 0;
+	border-radius:100px;
 }
 
 .education-container
@@ -250,6 +252,7 @@ p
 	padding:0.8em 1.3em;
 	background-color:#bdbdbd;
 	text-align:center;
+	border-radius:100px;
 }
 
 .foot-container

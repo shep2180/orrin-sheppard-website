@@ -50,6 +50,17 @@ p
 	margin-bottom:0;
 	size:3px;
 	line-height:1.3em;
+	font-family:'Roboto', sans-serif;
+}
+
+a
+{
+	color:#141c3a;
+}
+
+a:hover
+{
+	color:#ff9900;
 }
 
 .test-div
@@ -118,23 +129,13 @@ p
 
 .nav-tabs
 {
-	text-decoration:none;
+	/* text-decoration:none; */
 	letter-spacing:1px;
 	font-family:'Roboto', sans-serif;
 	margin:1rem;
-	color:#141c3a;
+	/* color:#141c3a; */
 	justify-content:flex-end;
 	padding-left:40%;
-}
-
-.nav-icon a:hover
-{
-	color:#71c9ce;
-}
-
-.nav-icon a:active
-{
-	color:#141c3a;
 }
 
 /* Top Heading Section */
@@ -142,6 +143,7 @@ p
 {
 	display:block;
 	text-align:center;
+	margin:70px 0;
 	border-bottom-style:solid;
 	border-bottom-color:#141c3a;
 	border-bottom-width:1px;
@@ -202,18 +204,49 @@ p
 	display:block;
 	text-align:center;
 	margin:70px 0;
-	padding:6.25rem;
 	border-bottom-style:solid;
 	border-bottom-color:#141c3a;
 	border-bottom-width:1px;
+	padding-bottom:30px;
 }
 
 .job-container
 {
 	margin:0 10%;
+	padding-bottom:10px;
 }
 
-.job-text
+.job-website-header
+{
+	font-family:'Roboto', sans-serif;
+	color:#141c3a;
+}
+
+.job-website-year
+{
+	line-height:.5rem;
+	font-family:'Roboto', sans-serif;
+}
+
+.job-website-text
+{
+	line-height:2rem;
+	font-family:'Roboto', sans-serif;
+}
+
+.job-gs-header
+{
+	font-family:'Roboto', sans-serif;
+	color:#141c3a;
+}
+
+.job-gs-year
+{
+	line-height:.5rem;
+	font-family:'Roboto', sans-serif;
+}
+
+.job-gs-text
 {
 	line-height:2rem;
 	font-family:'Roboto', sans-serif;
@@ -228,6 +261,8 @@ p
 	border-bottom-color:#141c3a;
 	border-bottom-width:1px;
 	padding-bottom:30px;
+	line-height:2rem;
+	font-family:'Roboto', sans-serif;
 }
 
 .headings
@@ -241,21 +276,33 @@ p
 	display:flex;
 }
 
+.skills-text
+{
+	line-height:2rem;
+	font-family:'Roboto', sans-serif;
+}
+
 /* Education Section */
 #education-section
 {
 	display:block;
 	text-align:center;
-	padding:6.25rem 0;
+	margin:70px 0;
 	border-bottom-style:solid;
 	border-bottom-color:#141c3a;
 	border-bottom-width:1px;
+	padding-bottom:30px;
 }
 
 .education-container
 {
 	margin:0 10%;
-	background-color:#e3fdfd;
+}
+
+.education-school
+{
+	padding-bottom:0;
+	margin-bottom:0;
 }
 
 .education-text
@@ -263,6 +310,20 @@ p
 	line-height:2;
 	margin-bottom:50px;
 	font-family:'Roboto', sans-serif;
+	padding-top:0;
+	margin-top:0;
+}
+
+.ccp-img
+{
+	width:25%;
+	height:25%;
+}
+
+.saa-img
+{
+	width:25%;
+	height:25%;
 }
 
 /* Contact Section */
@@ -298,7 +359,7 @@ p
 
 .foot-container
 {
-	/* margin-top:100px; */
+	
 }
 
 .challenge-text
@@ -319,15 +380,34 @@ p
 
 .api-img
 {
-	
+	width:75px;
+	height:75px;
+}
+
+.api-img:hover
+{
+	filter: contrast(0%);
 }
 
 .lambda-img
 {
-	
+	padding-left:10px;
+	width:75px;
+	height:75px;
+}
+
+.lambda-img:hover
+{
+	filter: contrast(0%);
 }
 
 .dynamodb-img
 {
-	
+	width:85px;
+	height:85px;
+}
+
+.dynamodb-img:hover
+{
+	filter: contrast(0%);
 }

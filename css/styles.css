@@ -337,12 +337,12 @@ a:hover
 .contact-container
 {
 	margin:70px 10%;
+	margin-bottom:30px;
 }
 
 .contact-text
 {
 	font-family:'Roboto', sans-serif;
-	margin-bottom:30px;
 }
 
 /* Foot Section */

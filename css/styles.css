@@ -2,7 +2,6 @@
 html
 {
 		scroll-behavior: smooth;
-		background-color:#d9d9d9;
 }
 
 body
@@ -67,10 +66,13 @@ p
 }
 
 /* Top Bar Section */
-
 #nav-bar-section
 {
 	padding:30px 0;
+	background-color:#bdbdbd;
+	border-bottom-style:solid;
+	border-bottom-width:3px;
+	border-bottom-color:gainsboro;
 }
 
 .nav-bar-container
@@ -78,16 +80,51 @@ p
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	margin:0 10%;
+	width:700px;
+	margin:auto;
 }
 
-.nav-icon
+.nav-icon-github
+{
+	
+}
+
+.github-img
+{
+	width:50%;
+	height:50%;
+}
+
+.github-img:hover
+{
+	filter: contrast(0%);
+}
+
+.nav-icon-linkedin-img
+{
+	
+}
+
+.linkedin-img
+{
+	width:50%;
+	height:50%;
+}
+
+.linkedin-img:hover
+{
+	filter: contrast(0%);
+}
+
+.nav-tabs
 {
 	text-decoration:none;
 	letter-spacing:1px;
 	font-family:'Roboto', sans-serif;
 	margin:1rem;
 	color:#141c3a;
+	justify-content:flex-end;
+	padding-left:40%;
 }
 
 .nav-icon a:hover
@@ -104,11 +141,10 @@ p
 #top-heading-section
 {
 	display:block;
-	background-color:#bdbdbd;
 	text-align:center;
-	border-radius:100px;
-	border-style:solid;
-	border-color:black;
+	border-bottom-style:solid;
+	border-bottom-color:#141c3a;
+	border-bottom-width:1px;
 }
 
 .top-container
@@ -143,18 +179,15 @@ p
 	display:block;
 	text-align:center;
 	margin:70px 0;
-	
+	border-bottom-style:solid;
+	border-bottom-color:#141c3a;
+	border-bottom-width:1px;
+	padding:30px;
 }
 
 .about-container
 {
 	margin:0 10%;
-}
-
-.about-image
-{
-	width:200px;
-	margin-bottom:30px;
 }
 
 .about-text
@@ -170,10 +203,9 @@ p
 	text-align:center;
 	margin:70px 0;
 	padding:6.25rem;
-	background-color:#bdbdbd;
-	border-radius:100px;
-	border-style:solid;
-	border-color:black;
+	border-bottom-style:solid;
+	border-bottom-color:#141c3a;
+	border-bottom-width:1px;
 }
 
 .job-container
@@ -192,7 +224,10 @@ p
 {
 	display:block;
 	text-align:center;
-	margin:30px 10%;
+	border-bottom-style:solid;
+	border-bottom-color:#141c3a;
+	border-bottom-width:1px;
+	padding-bottom:30px;
 }
 
 .headings
@@ -211,11 +246,10 @@ p
 {
 	display:block;
 	text-align:center;
-	background-color:#bdbdbd;
 	padding:6.25rem 0;
-	border-radius:100px;
-	border-style:solid;
-	border-color:black;
+	border-bottom-style:solid;
+	border-bottom-color:#141c3a;
+	border-bottom-width:1px;
 }
 
 .education-container
@@ -254,18 +288,17 @@ p
 #foot-section
 {
 	display:block;
-	padding:0.8em 1.3em;
-	background-color:#bdbdbd;
+	padding:30px;
+	background-color:#bdbdbd; 
 	text-align:center;
-	border-radius:100px;
-	border-style:solid;
-	border-color:black;
+	border-top-style:solid;
+	border-top-color:gainsboro;
+	border-top-width:3px;
 }
 
 .foot-container
 {
-	padding:50px 0;
-	margin-top:100px;
+	/* margin-top:100px; */
 }
 
 .challenge-text
@@ -281,4 +314,20 @@ p
 .aws-text
 {
 	font-family:'Roboto', sans-serif;
+	padding-bottom:15px;
+}
+
+.api-img
+{
+	
+}
+
+.lambda-img
+{
+	
+}
+
+.dynamodb-img
+{
+	
 }

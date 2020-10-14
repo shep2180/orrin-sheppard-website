@@ -184,7 +184,7 @@ a:hover
 	border-bottom-style:solid;
 	border-bottom-color:#141c3a;
 	border-bottom-width:1px;
-	padding:30px;
+	padding-bottom:30px;
 }
 
 .about-container
@@ -231,6 +231,18 @@ a:hover
 .job-website-text
 {
 	line-height:2rem;
+	font-family:'Roboto', sans-serif;
+}
+
+.job-etl-header
+{
+    font-family:'Roboto', sans-serif;
+	color:#141c3a;
+}
+
+.job-etl-text
+{
+    line-height:2rem;
 	font-family:'Roboto', sans-serif;
 }
 
@@ -331,7 +343,7 @@ a:hover
 {
 	display:block;
 	text-align:center;
-	margin-top:100px;
+	margin-top:50px;
 }
 
 .contact-container

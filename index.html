@@ -18,7 +18,7 @@
         
         <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
         
-        <!-- TESTING -->
+        <!-- TESTING
         <script type="text/javascript">
                 window.onload = function()
                 {
@@ -27,7 +27,7 @@
                     function getDataPointsFromCSV(csv)
                     {
                         const dataPoints = csvLines = points = [];
-                        csvLines = csv.split(/[\r?\n|\r|\n]+/);
+                        csvLines = csv.split('\n');
                         
                         for(var i = 0; i < csvLines.length; i++)
                             if(csvLines[i].length > 0)
@@ -37,12 +37,14 @@
                                     x: parseFloat(points[0]),
                                     y: parseFloat(points[1])
                                 });
+                                
+                                console.log(dataPoints);
                             }
                         
                         return dataPoints;
                     }
                     
-                    $.get("https://dailycovidetlshep2180.s3-us-west-2.amazonaws.com/testCovidData.csv", function(data) {
+                    $.get("https://dailycovidetlshep2180.s3-us-west-2.amazonaws.com/test.csv", function(data) {
                         const chart = new CanvasJS.Chart("chartContainer", {
                             title: {
                                 text: "Test Chart From CSV"
@@ -57,7 +59,7 @@
                     })
                 }
             </script>
-        <!-- TESTING -->
+        TESTING -->
 	</head>
 
 	<body>
